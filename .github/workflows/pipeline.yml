@@ -23,7 +23,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r notebooks/tourism_project/deployment/requirements.txt
 
     - name: Data Preparation
       run: python scripts/data_preparation.py
